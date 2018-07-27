@@ -1,0 +1,3 @@
+28 6    * * *   root    killall -9 python
+30 6    * * *   root    nohup python /Lims_iot/src/Lims_iot.py
+00 7    * * *   root    python /Lims_iot/src/Module/Data/danger.py
